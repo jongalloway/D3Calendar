@@ -27,8 +27,8 @@
 			var width = 1000,
 				height = 125,
 				cellSize = 16,	// cell size
-				week_days = ['Lun','Mar','Mie','Jue','Vie','Sab','Dom']
-				month = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+				week_days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+				month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 			
 			var day = function(d) { return (d.getDay() + 6) % 7; }, // lunes = 0
 				week = d3.time.format("%W"), // semana basada en lunes.
